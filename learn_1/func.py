@@ -27,8 +27,4 @@ product = [
 ]
     
  #product['with_discound'] = descounting(product[0]['price'][2])
-product = descounting(product[0]['price'],product[0]['discount']) 
-print(product)
-
-product = descounting(product[0,1,2]['price'],product[0,1,2]['discount']) # Как рассчитать все колони ( ПРОБЛЕМА с доступом к внутренним элементам словаря и их взаимодействие с функцией)
-print(product)
+print(type(product))
