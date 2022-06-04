@@ -20,4 +20,5 @@ def discounted(price, discount, max_discound = 30, name_phone=''):
 
 for phone in stok:
     phone['price_finel'] = discounted(phone['price'], phone['discount'], name_phone=phone['name'])
-print(stok)
+print(discounted(100,10,20))
+

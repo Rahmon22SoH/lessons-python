@@ -4,8 +4,11 @@ avg_score = 0
 for score in studends_sorces:
     print('До', avg_score)
     avg_score = avg_score + score
-    print('После', avg_score)
+ for sum_sale in sum_avg:
+        sum_products = sum_product + sum_sale
+    return sum_products
+ 
 
-class_avg = avg_score / len(studends_sorces)
-print('Средн оценка ', class_avg)
+
+print(avg_score)
 
